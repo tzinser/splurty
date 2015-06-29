@@ -10,7 +10,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: rgb(0,74,126);
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
@@ -53,7 +53,11 @@ header {
 
 hr {
 	clear:both;
+    border: 0;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+
 
 h1 {
 	font-family: 'kaushan_scriptregular', sans-serif;
@@ -67,4 +71,19 @@ h2{
 	font-weight: 600;
 	font-size: 1.5em;
 	letter-spacing: -1.5px;
+}
+
+.next-quote {
+	color: rgb(0,74,126);
+	font-family: 'kaushan_scriptregular', sans-serif;
+	font-size: 20px;
+}
+
+ .footer-blurb {
+  	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", 
+  		Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond,
+   		"Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook",
+    	"Century Schoolbook L", Georgia, serif;
+    font-style: italic;
+    text-align: right;
 }
