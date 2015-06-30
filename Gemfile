@@ -47,3 +47,5 @@ end
 #Bootstrap for page markup
 gem 'bootstrap-sass', '~> 3.3.4'
 
+#Additon of simple form entry
+gem 'simple_form'
