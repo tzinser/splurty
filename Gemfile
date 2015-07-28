@@ -49,3 +49,6 @@ gem 'bootstrap-sass', '~> 3.3.4'
 
 #Additon of simple form entry
 gem 'simple_form'
+
+#Factory girl for TDD
+gem "factory_girl_rails", "~>4.0"
